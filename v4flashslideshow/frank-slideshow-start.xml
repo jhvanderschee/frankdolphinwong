@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slideshow version="4" name="frank-slideshow-start" origTemplateName="ad08">
+  <htmlTemplateMetaData note="THESE PARAMETER VALUES ARE FOR TEMPLATING ONLY; YOU MUST UPDATE THEM IN YOUR HTML PAGE FOR THEM TO SHOW UP PROPERLY!" p_backgroundColor="#000000" p_level="b" p_preloaderTextColor="#000000" p_height="400" p_backgroundAlpha="1" p_preloaderColor="#000000" p_width="500" p_preloaderAlpha="0.52" p_preloaderTextFont="Verdana" p_rightClickLabel="start" p_touchMode="inline" p_touchBackgroundAlpha="1" p_touchLinksFS="true" p_touchLinks="false" p_=""/>
+  <styles>
+    <Application themeColor="#FFFFFF" color="#FFFFFF" fontStyle="italic" fontSize="12"/>
+    <LayoutTransition effectType="FadeStandard"/>
+    <ImagesStandardTransition effectType="FadeStandard" duration="2000" direction="right" spacing="5" smoothing="true"/>
+    <Thumb borderThickness="3" scaleMode="scaleUpAndDown"/>
+    <IndividualSlide scaleMode="scaleUpAndDown"/>
+    <AudioGallery/>
+    <AudioIntro loop="false" errorReporting="false"/>
+    <ImageManager preloadMode="onDemand"/>
+  </styles>
+  <effects/>
+  <ui>
+    <views>
+      <view id="standardView" label="Main view" initial="true" designTimeSelected="true">
+        <HoverCanvas left="0" right="0" top="0" hideDelay="2800"/>
+        <HoverCanvas left="0" right="0" bottom="0"/>
+        <HoverCanvas left="0" right="0" bottom="0" x="387" y="432"/>
+        <HoverCanvas left="0" right="0" bottom="0" x="277" y="257"/>
+        <HoverCanvas left="0" right="0" bottom="0" x="332" y="383"/>
+        <HoverCanvas left="0" right="0" bottom="0" x="123" y="614"/>
+        <HoverCanvas left="0" right="0" bottom="0" x="347" y="410"/>
+        <HoverCanvas left="0" right="0" bottom="0" x="162" y="346"/>
+        <DynamicText htmlText="{image.id}/{image.total}" hideWhenEmpty="true" width="61" height="23" x="0" y="0" id="01" fadeTime="0" color="#999999" textAlign="right" right="0" bottom="-4"/>
+        <PreviousButton x="7" y="206" width="15" height="20" label="ein Bild zurück" themeColor="#999999" color="#000000" disabledColor="#FFFFFF" left="10%" bottom="0"/>
+        <NextButton x="895" y="285" width="15" height="20" color="#cccccc" label="ein Bild vor" themeColor="#999999" disabledColor="#FFFFFF" bottom="0" left="150"/>
+        <FullScreenButton width="20" height="20" label="Vollbildmodus AN/AUS" fullscreenSlideScaleMode="scaleUpAndDown" themeColor="#666666" disabledColor="#999999" x="289" y="366" bottom="0" left="100"/>
+        <SingleLoader x="188" y="138"/>
+        <ImagesStandard x="0" y="-37" width="100%" height="85%" horizontalCenter="1" top="0"/>
+        <PlayPauseButton width="20" height="20" label="Diaschow START/STOP" themeColor="#666666" disabledColor="#666666" x="175" y="365" bottom="0" left="50"/>
+        <AudioVolumeControl x="203" y="365" right="80" bottom="0"/>
+        <Caption width="100%" height="30" x="241" y="312" dropShadowEnabled="false" cornerRadius="4" borderStyle="none" backgroundAlpha="0.1" textAlign="center" color="#CCCCCC" fontSize="20" bottom="30" horizontalCenter="0" borderThickness="0" fontFamily="Arial" themeColor="#FFFFFF" alpha="0.1" dropShadowColor="#FFFFFF"/>
+      </view>
+      <view type="overlay" id="overlayView1">
+        <VBox verticalAlign="middle" horizontalAlign="center" width="100%" height="100%">
+          <SingleLoader/>
+          <GroupLoader/>
+        </VBox>
+      </view>
+      <view type="dropin" id="Thumbnails_thumbnails0_ItemDescriptor">
+        <Thumb/>
+      </view>
+      <view type="dropin" id="Thumbnails_thumbnails0_PagingControls">
+        <HBox left="0" top="0" bottom="0" verticalAlign="middle" paddingRight="5" paddingLeft="5">
+          <PagingControlGlideBackButton __label="&lt;" __selectionEvent="rollover"/>
+        </HBox>
+        <HBox right="0" top="0" bottom="0" verticalAlign="middle" paddingLeft="5" paddingRight="5">
+          <PagingControlGlideForwardButton __label="&gt;" __selectionEvent="rollover"/>
+        </HBox>
+      </view>
+      <view type="touch" id="touchView_wizardCreated_1384709930131">
+        <PreviousButtonTouch x="337" y="367" right="100" bottom="15" width="39" height="33"/>
+        <NextButtonTouch x="423" y="371" right="36" bottom="-55" width="39" height="33"/>
+        <NextButtonTouch x="445" y="297" right="10" bottom="15"/>
+        <PlayPauseButtonTouch x="9" y="455" bottom="15" left="-1"/>
+        <ImagesStandardTouch left="0" right="0" top="0" x="218" y="97" width="105%" height="85%"/>
+      </view>
+    </views>
+  </ui>
+  <kenburns/>
+  <galleries autoplay="true" autoplayDelay="8000,kbComplete" autoplayLoop="true">
+    <gallery title="frank-slideshow-start" description="" audio="sound.mp3" lastThumbProfile="xfs_100x100_c80_" fullPathPrefix="slideshow-start/" thumbPathPrefix="slideshow-start/xfs_thumbs/">
+      <img src="Tosca_03[1].jpg" title="Tosca" thumb="Tosca_03[1].jpg"/>
+      <img src="ringetje.jpg" title="Ringetje" thumb="ringetje.jpg"/>
+      <img src="BI-the-rape-of-lucretia1[1].jpg" title="The rape of Lucretia" thumb="BI-the-rape-of-lucretia1[1].jpg"/>
+      <img src="rigoletto-2013-2.jpg" thumb="rigoletto-2013-2.jpg" title="Rigoletto" caption="Rigoletto"/>
+      <img src="giroletto-2013-1.jpg" thumb="giroletto-2013-1.jpg" title="Rigoletto" caption="Rigoletto"/>
+      <img src="carmen-2.jpg" thumb="carmen-2.jpg" title="Carmen" caption="Carmen"/>
+      <img src="carmen.jpg" thumb="carmen.jpg" title="Carmen" caption="Carmen"/>
+      <img src="manon.jpg" thumb="manon.jpg" title="Manon" caption="Manon"/>
+      <img src="fallstaff.jpg" thumb="fallstaff.jpg" title="Fallstaff" caption="Fallstaff"/>
+      <img src="fledermaus.jpg" thumb="fledermaus.jpg" title="Fledermaus" caption="Fledermaus"/>
+      <img src="sweeney2.jpg" thumb="sweeney2.jpg" title="Sweeney Todd" caption="Sweeney Todd"/>
+      <img src="sweeney1.jpg" thumb="sweeney1.jpg" title="Sweeney Todd" caption="Sweeney Todd"/>
+      <img src="rigoletto-2009-1.jpg" thumb="rigoletto-2009-1.jpg" title="Rigoletto (2009)" caption="Rigoletto (2009)"/>
+      <img src="rakes.jpg" thumb="rakes.jpg" title="The Rake's Progress" caption="The Rake's Progress"/>
+      <img src="rakes2.jpg" thumb="rakes2.jpg" title="The Rake's Progress" caption="The Rake's Progress"/>
+      <img src="hoffmann2.jpg" thumb="hoffmann2.jpg" title="Hoffmanns Erzählungen" caption="Hoffmanns Erzählungen"/>
+      <img src="hoffmann1.jpg" thumb="hoffmann1.jpg" title="Hoffmanns Erzählungen" caption="Hoffmanns Erzählungen"/>
+      <img src="elektra2.jpg" thumb="elektra2.jpg" title="Elektra" caption="Elektra"/>
+      <img src="elektra.jpg" thumb="elektra.jpg" title="Elektra" caption="Elektra"/>
+      <img src="figaro.jpg" thumb="figaro.jpg" title="Die Hochzeit des Figaro" caption="Die Hochzeit des Figaro"/>
+    </gallery>
+  </galleries>
+</slideshow>
